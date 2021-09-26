@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Core2 - Classic German Cars</string>
+    <string name="mercedes_name">Mercedes Benz W113</string>
+    <string name="bmw_name">BMW E30</string>
+    <string name="porsche_name">Porsche 911</string>
+    <string name="vw_name">Volkswagen Golf</string>
+</resources>

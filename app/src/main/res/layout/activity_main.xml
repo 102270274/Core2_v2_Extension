@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mercedes"
+        android:layout_width="186dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/mercedes_benz_w113" />
+
+    <TextView
+        android:id="@+id/mercedes_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/mercedes"
+        app:layout_constraintStart_toStartOf="@+id/mercedes"
+        app:layout_constraintTop_toBottomOf="@+id/mercedes" />
+
+    <TextView
+        android:id="@+id/mercedes_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/mercedes_txt"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="@+id/mercedes_txt"
+        app:layout_constraintTop_toBottomOf="@+id/mercedes_txt" />
+
+    <ImageView
+        android:id="@+id/bmw"
+        android:layout_width="185dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bmw_e30" />
+
+    <TextView
+        android:id="@+id/bmw_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/bmw"
+        app:layout_constraintStart_toStartOf="@+id/bmw"
+        app:layout_constraintTop_toBottomOf="@+id/bmw" />
+
+    <TextView
+        android:id="@+id/bmw_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/bmw_txt"
+        app:layout_constraintStart_toStartOf="@+id/bmw_txt"
+        app:layout_constraintTop_toBottomOf="@+id/bmw_txt" />
+
+    <ImageView
+        android:id="@+id/porsche"
+        android:layout_width="185dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/porsche_911" />
+
+    <TextView
+        android:id="@+id/porsche_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/porsche"
+        app:layout_constraintStart_toStartOf="@+id/porsche"
+        app:layout_constraintTop_toBottomOf="@+id/porsche" />
+
+    <TextView
+        android:id="@+id/porsche_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/porsche_txt"
+        app:layout_constraintStart_toStartOf="@+id/porsche_txt"
+        app:layout_constraintTop_toBottomOf="@+id/porsche_txt" />
+
+    <ImageView
+        android:id="@+id/vw"
+        android:layout_width="186dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vw_golf" />
+
+    <TextView
+        android:id="@+id/vw_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vw"
+        app:layout_constraintStart_toStartOf="@+id/vw"
+        app:layout_constraintTop_toBottomOf="@+id/vw" />
+
+    <TextView
+        android:id="@+id/vw_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vw_txt"
+        app:layout_constraintStart_toStartOf="@+id/vw_txt"
+        app:layout_constraintTop_toBottomOf="@+id/vw_txt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
